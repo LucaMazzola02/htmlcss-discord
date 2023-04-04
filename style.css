@@ -116,7 +116,7 @@ ul>li{
 
 
 .section-article{
-    height: 60vh;
+    height: 70vh;
     align-items: center;
 }
 
@@ -124,24 +124,67 @@ ul>li{
     width: 800px;
 
 }
-
-.bg-pink{
-    background-color: rgba(255,192,203,255);
-    height: 350px;
-    width: 40%;
-
-}
-
 .item1{
     background-image: url(img/item1.svg);
-    background-size: cover;
-    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 60%;
 }
 
-.bg-grey{
-    background-color: grey;  
+.item1-description{
+    width: 40%;
+    padding-left: 12%;
+    padding-top: 3%;
 }
+.item1-description h1{
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+
+
+.bg-grey{
+    background-color: #eee;  
+}
+
+
+.item2{
+    background-image: url(img/item2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+}
+
+.item2-description{
+    width: 40%;
+    padding-right: 12%;
+    padding-top: 3%;
+}
+.item2-description h1{
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+
+
+.item3{
+    background-image: url(img/item3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+}
+
+.item3-description{
+    width: 40%;
+    padding-left: 12%;
+    padding-top: 3%;
+}
+.item3-description h1{
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+
+
+
+
 
 .bg-green{
     background-color: rgba(34,139,34,255);
