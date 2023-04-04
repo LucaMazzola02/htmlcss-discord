@@ -186,17 +186,30 @@ ul>li{
 
 
 
-.bg-green{
-    background-color: rgba(34,139,34,255);
-    height: 90vh;
-    width: 800px;
+.section3{
+    justify-content: center;
+    padding: 7% 0;
 }
 
-.section3{
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+.item4{
+    width: 800px;
+    text-align: center;
 }
+
+.item4 h1{
+    font-size: 42px;
+    margin-bottom: 5%;
+}
+
+.item4 h2{
+    margin-bottom: 4%;
+}
+
+.bg-blue-button{
+    color: #fff;
+    background-color: rgba(142,161,225,255);
+}
+
 
 .footer1{
     background-color: rgba(35,39,42,255);
@@ -245,4 +258,26 @@ ul>li{
 .bottone{
     background-color: rgba(247,177,189,255);
     padding: .4%;
+}
+
+
+
+
+
+
+
+
+
+
+.wave-1hkxOo{
+    margin-bottom: -20px;
+    color: #eee;
+    background-color: #fff;
+}
+
+.wave-1hkxOo2{
+    transform: rotate(180deg);
+    margin-bottom: -20px;
+    color: #eee;
+    background-color: #fff;
 }
